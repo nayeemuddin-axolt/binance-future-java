@@ -4,14 +4,14 @@ import com.binance.connector.futures.client.exceptions.BinanceClientException;
 import com.binance.connector.futures.client.exceptions.BinanceConnectorException;
 import com.binance.connector.futures.client.impl.CMFuturesClientImpl;
 import examples.PrivateConfig;
-import examples.cm_futures.market.MarkPrice;
+// import examples.cm_futures.market.MarkPrice;
 import java.util.LinkedHashMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import org.json.JSONArray;
-import org.json.JSONObject;
+// import org.json.JSONArray;
+// import org.json.JSONObject;
 
 public final class NewOrder {
     private NewOrder() {
@@ -21,7 +21,7 @@ public final class NewOrder {
     private static final double price = 2.5000;
 
     private static final String symbol = "ADAUSD_PERP";
-    private static final String type = "MARKET";
+    private static String type = "MARKET";
 
     private static final Logger logger = LoggerFactory.getLogger(NewOrder.class);
 

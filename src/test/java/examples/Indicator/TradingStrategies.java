@@ -1,13 +1,13 @@
 package examples.Indicator;
 
-import com.binance.connector.futures.client.exceptions.BinanceClientException;
-import com.binance.connector.futures.client.exceptions.BinanceConnectorException;
+// import com.binance.connector.futures.client.exceptions.BinanceClientException;
+// import com.binance.connector.futures.client.exceptions.BinanceConnectorException;
 import com.binance.connector.futures.client.impl.CMFuturesClientImpl;
 import examples.PrivateConfig;
-import examples.Indicator.BinanceOrderFlowSystem;
+// import examples.Indicator.BinanceOrderFlowSystem;
 import java.util.LinkedHashMap;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
 
 import org.ta4j.core.Bar;
 import org.ta4j.core.BaseBar;
@@ -36,7 +36,7 @@ import org.ta4j.core.indicators.WilliamsRIndicator;
 import org.ta4j.core.analysis.criteria.TotalProfitCriterion;
 
 import org.json.JSONArray;
-import org.json.JSONObject;
+// import org.json.JSONObject;
 import java.math.BigDecimal;
 import java.time.Duration;
 import java.time.ZonedDateTime;
@@ -55,7 +55,7 @@ public class TradingStrategies {
     public static final String SYMBOL = "ADAUSD_PERP";
     public static final String PAIR = "ADAUSD";
 
-    private static final Logger logger = LoggerFactory.getLogger(TradingStrategies.class);
+    // private static final Logger logger = LoggerFactory.getLogger(TradingStrategies.class);
 
     public static void main(String[] args) {
 
