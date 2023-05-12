@@ -2,13 +2,13 @@ package examples.Indicator;
 
 // import com.binance.connector.futures.client.exceptions.BinanceClientException;
 // import com.binance.connector.futures.client.exceptions.BinanceConnectorException;
-import com.binance.connector.futures.client.impl.CMFuturesClientImpl;
-import examples.PrivateConfig;
-// import examples.Indicator.BinanceOrderFlowSystem;
-import java.util.LinkedHashMap;
 // import org.slf4j.Logger;
 // import org.slf4j.LoggerFactory;
-
+// import examples.Indicator.BinanceOrderFlowSystem;
+// import org.json.JSONObject;
+import com.binance.connector.futures.client.impl.CMFuturesClientImpl;
+import examples.PrivateConfig;
+import java.util.LinkedHashMap;
 import org.ta4j.core.Bar;
 import org.ta4j.core.BaseBar;
 import org.ta4j.core.BarSeriesManager;
@@ -34,9 +34,7 @@ import org.ta4j.core.indicators.volume.OnBalanceVolumeIndicator;
 import org.ta4j.core.indicators.ROCIndicator;
 import org.ta4j.core.indicators.WilliamsRIndicator;
 import org.ta4j.core.analysis.criteria.TotalProfitCriterion;
-
 import org.json.JSONArray;
-// import org.json.JSONObject;
 import java.math.BigDecimal;
 import java.time.Duration;
 import java.time.ZonedDateTime;
