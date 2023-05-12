@@ -18,8 +18,8 @@ jobs:
           distribution: 'adopt' # or 'zulu', 'temurin', etc.
           java-version: '11'
       
-      - name: Build with Gradle
-        run: ./gradlew build
+      # - name: Build with Gradle
+      #   run: ./gradlew build
       
       - name: Deploy Binance Future to DigitalOcean
         uses: appleboy/ssh-action@master
