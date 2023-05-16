@@ -1,7 +1,7 @@
 package examples.Indicator;
 
 public class kline {
-    private Long openTime;
+  private Long openTime;
 
   private String open;
 

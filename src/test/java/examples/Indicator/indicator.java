@@ -101,7 +101,8 @@ public final class indicator {
             double takerBuyBaseAssetVolume = row.getDouble(9);
             double takerBuyQuoteAssetVolume = row.getDouble(10);
             double ignore = row.getDouble(11);
-            ContinuousKlines obj = new ContinuousKlines(timestamp,open,high,low,close,volume,closeTimestamp,quoteAssetVolume,numTrades,takerBuyBaseAssetVolume,takerBuyQuoteAssetVolume,ignore);
+            ContinuousKlines obj = new ContinuousKlines(timestamp, open, high, low, close, volume, closeTimestamp,
+                    quoteAssetVolume, numTrades, takerBuyBaseAssetVolume, takerBuyQuoteAssetVolume, ignore);
             sum += obj.getClose();
             myList.add(obj);
         }

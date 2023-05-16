@@ -37,7 +37,7 @@ import com.google.common.util.concurrent.RateLimiter;
 
 public class BinanceOrderFlowSystem implements OrderFlowSystem {
 
-    private final RateLimiter rateLimiter;    
+    private final RateLimiter rateLimiter;
 
     public BinanceOrderFlowSystem() {
         this.rateLimiter = RateLimiter.create(10); // 10 requests per second
@@ -49,7 +49,7 @@ public class BinanceOrderFlowSystem implements OrderFlowSystem {
             rateLimiter.acquire(); // This will block until a permit is available
 
             CMFuturesClientImpl client = new CMFuturesClientImpl(PrivateConfig.TESTNET_API_KEY,
-                PrivateConfig.TESTNET_SECRET_KEY, PrivateConfig.TESTNET_BASE_URL);
+                    PrivateConfig.TESTNET_SECRET_KEY, PrivateConfig.TESTNET_BASE_URL);
 
             LinkedHashMap<String, Object> parameters = new LinkedHashMap<>();
             parameters.put("symbol", TradingStrategies.SYMBOL);
@@ -60,8 +60,10 @@ public class BinanceOrderFlowSystem implements OrderFlowSystem {
             parameters.put("price", limitPrice);
             String result = client.account().newOrder(parameters);
             System.out.println(result);
-            // NewOrderResponse newOrderResponse = client.newOrder(NewOrder.limitBuy(SYMBOL, TimeInForce.GTC, "10", limitPrice));
-            // System.out.println("New BUY order has been placed. " + " Order ID: " + newOrderResponse.getClientOrderId());
+            // NewOrderResponse newOrderResponse = client.newOrder(NewOrder.limitBuy(SYMBOL,
+            // TimeInForce.GTC, "10", limitPrice));
+            // System.out.println("New BUY order has been placed. " + " Order ID: " +
+            // newOrderResponse.getClientOrderId());
         } catch (Exception e) {
             System.err.println("Failed to place buy order: " + e.getMessage());
         }
@@ -73,7 +75,7 @@ public class BinanceOrderFlowSystem implements OrderFlowSystem {
             rateLimiter.acquire(); // This will block until a permit is available
 
             CMFuturesClientImpl client = new CMFuturesClientImpl(PrivateConfig.TESTNET_API_KEY,
-                PrivateConfig.TESTNET_SECRET_KEY, PrivateConfig.TESTNET_BASE_URL);
+                    PrivateConfig.TESTNET_SECRET_KEY, PrivateConfig.TESTNET_BASE_URL);
 
             // Define your limit price here
             LinkedHashMap<String, Object> parameters = new LinkedHashMap<>();
@@ -85,8 +87,11 @@ public class BinanceOrderFlowSystem implements OrderFlowSystem {
             parameters.put("price", limitPrice);
             String result = client.account().newOrder(parameters);
             System.out.println(result);
-            // NewOrderResponse newOrderResponse = client.newOrder(NewOrder.limitSell(SYMBOL, TimeInForce.GTC, "10", limitPrice));
-            // System.out.println("New SELL order has been placed. " + " Order ID: " + newOrderResponse.getClientOrderId());
+            // NewOrderResponse newOrderResponse =
+            // client.newOrder(NewOrder.limitSell(SYMBOL, TimeInForce.GTC, "10",
+            // limitPrice));
+            // System.out.println("New SELL order has been placed. " + " Order ID: " +
+            // newOrderResponse.getClientOrderId());
         } catch (Exception e) {
             System.err.println("Failed to place sell order: " + e.getMessage());
         }
@@ -107,14 +112,16 @@ public class BinanceOrderFlowSystem implements OrderFlowSystem {
         double macdValue = new MACDIndicator(closePrice).getValue(series.getEndIndex()).doubleValue();
         double cciValue = new CCIIndicator(series, timeFrame).getValue(series.getEndIndex()).doubleValue();
         StochasticOscillatorKIndicator stochasticK = new StochasticOscillatorKIndicator(series, timeFrame);
-        double stochasticDValue = new StochasticOscillatorDIndicator(stochasticK).getValue(series.getEndIndex()).doubleValue();
+        double stochasticDValue = new StochasticOscillatorDIndicator(stochasticK).getValue(series.getEndIndex())
+                .doubleValue();
         double obvValue = new OnBalanceVolumeIndicator(series).getValue(series.getEndIndex()).doubleValue();
         double rocValue = new ROCIndicator(closePrice, timeFrame).getValue(series.getEndIndex()).doubleValue();
-        double williamsR = new WilliamsRIndicator(series, timeFrame).getValue(series.getEndIndex()).doubleValue();        
+        double williamsR = new WilliamsRIndicator(series, timeFrame).getValue(series.getEndIndex()).doubleValue();
 
         // Calculate the weighted average
-        double weightedAverage = smaAvg + emaAvg + rsiAvg + parabolicSarValue + macdValue + cciValue + stochasticDValue + obvValue + rocValue + williamsR;
-        System.out.println("weightedAverage"+weightedAverage);
+        double weightedAverage = smaAvg + emaAvg + rsiAvg + parabolicSarValue + macdValue + cciValue + stochasticDValue
+                + obvValue + rocValue + williamsR;
+        System.out.println("weightedAverage" + weightedAverage);
         // Define your threshold here
         double threshold = 111894;
         // Check the signal
@@ -128,12 +135,13 @@ public class BinanceOrderFlowSystem implements OrderFlowSystem {
     }
 
     // public void getOrderStatus(String orderId) {
-    //     try {
-    //         rateLimiter.acquire(); // This will block until a permit is available
-    //         OrderStatusRequest orderStatusRequest = new OrderStatusRequest(SYMBOL, Long.valueOf(orderId));
-    //         System.out.println(client.getOrderStatus(orderStatusRequest));
-    //     } catch (Exception e) {
-    //         System.err.println("Failed to get order status: " + e.getMessage());
-    //     }
+    // try {
+    // rateLimiter.acquire(); // This will block until a permit is available
+    // OrderStatusRequest orderStatusRequest = new OrderStatusRequest(SYMBOL,
+    // Long.valueOf(orderId));
+    // System.out.println(client.getOrderStatus(orderStatusRequest));
+    // } catch (Exception e) {
+    // System.err.println("Failed to get order status: " + e.getMessage());
+    // }
     // }
 }

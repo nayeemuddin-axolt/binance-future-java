@@ -12,14 +12,15 @@ public final class MarkPrice {
     }
 
     private static final Logger logger = LoggerFactory.getLogger(MarkPrice.class);
+
     public static String main(String[] args) {
         String symbol;
-        
+
         LinkedHashMap<String, Object> parameters = new LinkedHashMap<>();
         if (args.length == 0) {
             logger.error("Symbol argument is missing");
             return null;
-        }else{
+        } else {
             symbol = args[0];
             parameters.put("symbol", symbol);
         }
