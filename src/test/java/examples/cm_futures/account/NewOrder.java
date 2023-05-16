@@ -4,12 +4,12 @@ import com.binance.connector.futures.client.exceptions.BinanceClientException;
 import com.binance.connector.futures.client.exceptions.BinanceConnectorException;
 import com.binance.connector.futures.client.impl.CMFuturesClientImpl;
 import examples.PrivateConfig;
-// import examples.cm_futures.market.MarkPrice;
 import java.util.LinkedHashMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+// import examples.cm_futures.market.MarkPrice;
 // import org.json.JSONArray;
 // import org.json.JSONObject;
 
@@ -25,10 +25,13 @@ public final class NewOrder {
 
     private static final Logger logger = LoggerFactory.getLogger(NewOrder.class);
 
+    private static final int zero = 0;
+    private static final int eight = 8;
     //
     public static double round(double value, int places) {
-        if (places < 0)
+        if (places < zero) {
             throw new IllegalArgumentException();
+        }
 
         BigDecimal bd = BigDecimal.valueOf(value);
         bd = bd.setScale(places, RoundingMode.HALF_UP);
@@ -41,8 +44,8 @@ public final class NewOrder {
 
         CMFuturesClientImpl client = new CMFuturesClientImpl(PrivateConfig.TESTNET_API_KEY,
                 PrivateConfig.TESTNET_SECRET_KEY, PrivateConfig.TESTNET_BASE_URL);
-        double roundedQuantity = round(quantity, 8);
-        double roundedPrice = round(price, 8);
+        double roundedQuantity = round(quantity, eight);
+        double roundedPrice = round(price, eight);
 
         // getting mark price
         // String markData = MarkPrice.main(new String[] { symbol });
@@ -50,7 +53,6 @@ public final class NewOrder {
         // JSONObject markObject = markArray.getJSONObject(0);
         // String markPrice = markObject.getString("markPrice");
         // double price = 0.0023; Double.parseDouble(markPrice);
-        
 
         parameters.put("symbol", symbol);
         parameters.put("side", "BUY");
@@ -60,7 +62,7 @@ public final class NewOrder {
         if (type == "LIMIT") {
             parameters.put("timeInForce", "GTC");
             parameters.put("price", roundedPrice);
-        } 
+        }
 
         try {
             String result = client.account().newOrder(parameters);
