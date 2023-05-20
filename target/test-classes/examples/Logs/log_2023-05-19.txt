@@ -1,0 +1,875 @@
+------- Time Start at 14:59:21.279841900 -------
+2023-05-20 14:59:21.279[1684574961279] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/continuousKlines?pair=ADAUSD&contractType=PERPETUAL&interval=5m
+2023-05-20 14:59:21.722[1684574961722] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/balance?timestamp=1684574961722&signature=d090604744e3623bf2aa1848f90c5b25b615b7f4a58f7685ae4e49cb40a9d077
+
+Asset Balance of ADA is 99858.37663385
+LowestPrice to buy at 0.36201
+HighestPrice to sell at 0.41699
+Defined Buy Threshold: 475.0
+Defined Sell Threshold: 465.0
+
+2023-05-20 14:59:22.139[1684574962139] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/depth?symbol=ADAUSD_PERP&limit=10
+
+Order Book Imbalance: 0.06951083135720712
+Spread: 0.016670000000000018
+Order Flow Signal: BUY
+
+Time Frame at 5
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003200000000002
+Relative Strength Index (RSI): 6.350247976702775
+Moving Average Convergence Divergence (MACD): 5.4300993073015785E-6
+Commodity Channel Index (CCI): -4.166666666666667
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04166566000000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.4705316400135
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 10
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.040031999878171985
+Relative Strength Index (RSI): 8.128616147584424
+Moving Average Convergence Divergence (MACD): 5.4300993073015785E-6
+Commodity Channel Index (CCI): -3.703703703703704
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04166566000000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.69466475338584
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 15
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003195598085411
+Relative Strength Index (RSI): 8.456246066808664
+Moving Average Convergence Divergence (MACD): 5.4300993073015785E-6
+Commodity Channel Index (CCI): -3.5714285714285716
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04166566000000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.740655254146
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 30
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04001910262114695
+Relative Strength Index (RSI): 8.335111122240383
+Moving Average Convergence Divergence (MACD): 5.4300993073015785E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04166566000000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.7408557452892
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 60
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.039829585968516365
+Relative Strength Index (RSI): 7.1153301412441365
+Moving Average Convergence Divergence (MACD): 5.4300993073015785E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04166566000000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.6188586955243
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 120
+Simple Moving Average (SMA): 0.038977758333333334
+Exponential Moving Average (EMA): 0.039379524588039394
+Relative Strength Index (RSI): 5.786603162550595
+Moving Average Convergence Divergence (MACD): 5.4300993073015785E-6
+Commodity Channel Index (CCI): 4.573329339276439
+Rate of Change (ROC): 0.8785564825131126
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04166566000000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.74068313219254
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 240
+Simple Moving Average (SMA): 0.03891229583333333
+Exponential Moving Average (EMA): 0.03926680684281142
+Relative Strength Index (RSI): 5.14220156496282
+Moving Average Convergence Divergence (MACD): 5.4300993073015785E-6
+Commodity Channel Index (CCI): 3.6529796564155834
+Rate of Change (ROC): -0.39976977865176666
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04166566000000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.45635756000667
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+------- Time End at 14:59:22.535065300 -------
+------- Time Start at 15:00:21.279813 -------
+2023-05-20 15:00:21.279[1684575021279] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/continuousKlines?pair=ADAUSD&contractType=PERPETUAL&interval=5m
+2023-05-20 15:00:21.691[1684575021691] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/balance?timestamp=1684575021691&signature=f59f9b8723f323a31189d9da5e3972816974ff1b71310debd039080d7a8b5453
+
+Asset Balance of ADA is 99858.37663385
+LowestPrice to buy at 0.36201
+HighestPrice to sell at 0.41699
+Defined Buy Threshold: 475.0
+Defined Sell Threshold: 465.0
+
+2023-05-20 15:00:22.181[1684575022181] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/depth?symbol=ADAUSD_PERP&limit=10
+
+Order Book Imbalance: 0.06951083135720712
+Spread: 0.016670000000000018
+Order Flow Signal: BUY
+
+Time Frame at 5
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003200000000001
+Relative Strength Index (RSI): 6.350247976702775
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -4.166666666666667
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.47052833248983
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 10
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003199990032253
+Relative Strength Index (RSI): 8.128616147584424
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.703703703703704
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.69466144586426
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 15
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003196148324734
+Relative Strength Index (RSI): 8.456246066808664
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.5714285714285716
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.7406519471725
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 30
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04001993471010521
+Relative Strength Index (RSI): 8.335111122240383
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.74085252097433
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 60
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.03983622249413878
+Relative Strength Index (RSI): 7.1153301412441365
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.6188560516531
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 120
+Simple Moving Average (SMA): 0.0390047
+Exponential Moving Average (EMA): 0.03939030930559246
+Relative Strength Index (RSI): 5.786603162550595
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): 4.5154851228068065
+Rate of Change (ROC): 0.8785564825131126
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.7348991756602
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 240
+Simple Moving Average (SMA): 0.038905350000000005
+Exponential Moving Average (EMA): 0.039273156993493485
+Relative Strength Index (RSI): 5.14220156496282
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): 3.68714738055583
+Rate of Change (ROC): -0.39976977865176666
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.45977096532863
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+------- Time End at 15:00:22.598133100 -------
+------- Time Start at 15:01:21.277696800 -------
+2023-05-20 15:01:21.277[1684575081277] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/continuousKlines?pair=ADAUSD&contractType=PERPETUAL&interval=5m
+2023-05-20 15:01:22.003[1684575082003] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/balance?timestamp=1684575082003&signature=682bc2774ed62380363e252bf2f4be56c2ceb9ef89268743156f3521db19d2f0
+
+Asset Balance of ADA is 99858.37663385
+LowestPrice to buy at 0.36201
+HighestPrice to sell at 0.41699
+Defined Buy Threshold: 475.0
+Defined Sell Threshold: 465.0
+
+2023-05-20 15:01:22.593[1684575082593] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/depth?symbol=ADAUSD_PERP&limit=10
+
+Order Book Imbalance: 0.06951083135720712
+Spread: 0.016670000000000018
+Order Flow Signal: BUY
+
+Time Frame at 5
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003200000000001
+Relative Strength Index (RSI): 6.350247976702775
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -4.166666666666667
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.47052833248983
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 10
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003199990032253
+Relative Strength Index (RSI): 8.128616147584424
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.703703703703704
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.69466144586426
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 15
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003196148324734
+Relative Strength Index (RSI): 8.456246066808664
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.5714285714285716
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.7406519471725
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 30
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04001993471010521
+Relative Strength Index (RSI): 8.335111122240383
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.74085252097433
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 60
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.03983622249413878
+Relative Strength Index (RSI): 7.1153301412441365
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.6188560516531
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 120
+Simple Moving Average (SMA): 0.0390047
+Exponential Moving Average (EMA): 0.03939030930559246
+Relative Strength Index (RSI): 5.786603162550595
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): 4.5154851228068065
+Rate of Change (ROC): 0.8785564825131126
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.7348991756602
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 240
+Simple Moving Average (SMA): 0.038905350000000005
+Exponential Moving Average (EMA): 0.039273156993493485
+Relative Strength Index (RSI): 5.14220156496282
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): 3.68714738055583
+Rate of Change (ROC): -0.39976977865176666
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.45977096532863
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+------- Time End at 15:01:23.023366 -------
+------- Time Start at 15:02:21.281907600 -------
+2023-05-20 15:02:21.281[1684575141281] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/continuousKlines?pair=ADAUSD&contractType=PERPETUAL&interval=5m
+2023-05-20 15:02:21.466[1684575141466] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/balance?timestamp=1684575141466&signature=9cf9fb25d1122ad2412b461e31421e210e2f1f7975db3cdc4eb09239298bf700
+
+Asset Balance of ADA is 99858.37663385
+LowestPrice to buy at 0.36201
+HighestPrice to sell at 0.41699
+Defined Buy Threshold: 475.0
+Defined Sell Threshold: 465.0
+
+2023-05-20 15:02:21.879[1684575141879] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/depth?symbol=ADAUSD_PERP&limit=10
+
+Order Book Imbalance: 0.06951083135720712
+Spread: 0.016670000000000018
+Order Flow Signal: BUY
+
+Time Frame at 5
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003200000000001
+Relative Strength Index (RSI): 6.350247976702775
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -4.166666666666667
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.47052833248983
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 10
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003199990032253
+Relative Strength Index (RSI): 8.128616147584424
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.703703703703704
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.69466144586426
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 15
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003196148324734
+Relative Strength Index (RSI): 8.456246066808664
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.5714285714285716
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.7406519471725
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 30
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04001993471010521
+Relative Strength Index (RSI): 8.335111122240383
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.74085252097433
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 60
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.03983622249413878
+Relative Strength Index (RSI): 7.1153301412441365
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.6188560516531
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 120
+Simple Moving Average (SMA): 0.0390047
+Exponential Moving Average (EMA): 0.03939030930559246
+Relative Strength Index (RSI): 5.786603162550595
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): 4.5154851228068065
+Rate of Change (ROC): 0.8785564825131126
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.7348991756602
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 240
+Simple Moving Average (SMA): 0.038905350000000005
+Exponential Moving Average (EMA): 0.039273156993493485
+Relative Strength Index (RSI): 5.14220156496282
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): 3.68714738055583
+Rate of Change (ROC): -0.39976977865176666
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.45977096532863
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+------- Time End at 15:02:22.455460500 -------
+------- Time Start at 15:03:21.273739300 -------
+2023-05-20 15:03:21.273[1684575201273] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/continuousKlines?pair=ADAUSD&contractType=PERPETUAL&interval=5m
+2023-05-20 15:03:21.694[1684575201694] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/balance?timestamp=1684575201694&signature=4798b2fc36abb434595458f0600b187415b9af47dbba2ca397dee7582c2d4163
+
+Asset Balance of ADA is 99858.37663385
+LowestPrice to buy at 0.36201
+HighestPrice to sell at 0.41699
+Defined Buy Threshold: 475.0
+Defined Sell Threshold: 465.0
+
+2023-05-20 15:03:22.081[1684575202081] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/depth?symbol=ADAUSD_PERP&limit=10
+
+Order Book Imbalance: 0.06951083135720712
+Spread: 0.016670000000000018
+Order Flow Signal: BUY
+
+Time Frame at 5
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003200000000001
+Relative Strength Index (RSI): 6.350247976702775
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -4.166666666666667
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.47052833248983
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 10
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003199990032253
+Relative Strength Index (RSI): 8.128616147584424
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.703703703703704
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.69466144586426
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 30
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04001993471010521
+Relative Strength Index (RSI): 8.335111122240383
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.74085252097433
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 60
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.03983622249413878
+Relative Strength Index (RSI): 7.1153301412441365
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.6188560516531
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 120
+Simple Moving Average (SMA): 0.0390047
+Exponential Moving Average (EMA): 0.03939030930559246
+Relative Strength Index (RSI): 5.786603162550595
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): 4.5154851228068065
+Rate of Change (ROC): 0.8785564825131126
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.7348991756602
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 240
+Simple Moving Average (SMA): 0.038905350000000005
+Exponential Moving Average (EMA): 0.039273156993493485
+Relative Strength Index (RSI): 5.14220156496282
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): 3.68714738055583
+Rate of Change (ROC): -0.39976977865176666
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.45977096532863
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+------- Time End at 15:03:22.458815900 -------
+------- Time Start at 15:04:21.274199 -------
+2023-05-20 15:04:21.274[1684575261274] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/continuousKlines?pair=ADAUSD&contractType=PERPETUAL&interval=5m
+2023-05-20 15:04:21.811[1684575261811] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/balance?timestamp=1684575261811&signature=29c9b69e3afd41ceb5122a7f5168a292b9f6161e9aafbf0d833728d294f23d0a
+
+Asset Balance of ADA is 99858.37663385
+LowestPrice to buy at 0.36201
+HighestPrice to sell at 0.41699
+Defined Buy Threshold: 475.0
+Defined Sell Threshold: 465.0
+
+2023-05-20 15:04:22.214[1684575262214] | INFO  | pool-1-thread-1 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/depth?symbol=ADAUSD_PERP&limit=10
+
+Order Book Imbalance: 0.06951083135720712
+Spread: 0.016670000000000018
+Order Flow Signal: BUY
+
+Time Frame at 5
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003200000000001
+Relative Strength Index (RSI): 6.350247976702775
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -4.166666666666667
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.47052833248983
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 10
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003199990032253
+Relative Strength Index (RSI): 8.128616147584424
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.703703703703704
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.69466144586426
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 15
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04003196148324734
+Relative Strength Index (RSI): 8.456246066808664
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.5714285714285716
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.7406519471725
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 30
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.04001993471010521
+Relative Strength Index (RSI): 8.335111122240383
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.74085252097433
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 60
+Simple Moving Average (SMA): 0.040032000000000005
+Exponential Moving Average (EMA): 0.03983622249413878
+Relative Strength Index (RSI): 7.1153301412441365
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): -3.448275862068966
+Rate of Change (ROC): 0.0
+Williams %R: -10.0
+Stochastic %D: 0.0
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 375.6188560516531
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 120
+Simple Moving Average (SMA): 0.0390047
+Exponential Moving Average (EMA): 0.03939030930559246
+Relative Strength Index (RSI): 5.786603162550595
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): 4.5154851228068065
+Rate of Change (ROC): 0.8785564825131126
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.7348991756602
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+
+Time Frame at 240
+Simple Moving Average (SMA): 0.038905350000000005
+Exponential Moving Average (EMA): 0.039273156993493485
+Relative Strength Index (RSI): 5.14220156496282
+Moving Average Convergence Divergence (MACD): 5.028061732337239E-6
+Commodity Channel Index (CCI): 3.68714738055583
+Rate of Change (ROC): -0.39976977865176666
+Williams %R: -3.175843017717662
+Stochastic %D: 6.8241569822823385
+Parabolic SAR (Stop and Reverse): 0.04163298680000001
+On-Balance Volume (OBV): 3762.4
+Total Average Indicator: 377.45977096532863
+--------------------------------------------------------
+
+Order Status Hold
+
+--------------------------------------------------------
+
+------- Time End at 15:04:22.592575700 -------
