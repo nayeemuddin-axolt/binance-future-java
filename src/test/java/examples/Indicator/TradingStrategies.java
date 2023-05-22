@@ -35,14 +35,15 @@ import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import java.util.logging.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class TradingStrategies {
 
         public static final String SYMBOL = "ADAUSD_PERP";
 
         
-        public static final Logger logger = Logger.getLogger(TradingStrategies.class.getName());
+        private static final Logger logger = LoggerFactory.getLogger(TradingStrategies.class);
 
         public static void main(String[] args) {
 

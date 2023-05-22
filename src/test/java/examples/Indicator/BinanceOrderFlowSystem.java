@@ -7,11 +7,12 @@ import com.google.common.util.concurrent.RateLimiter;
 import java.util.List;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.util.logging.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class BinanceOrderFlowSystem {
 
-    Logger logger = TradingStrategies.logger;
+    private static final Logger logger = LoggerFactory.getLogger(BinanceOrderFlowSystem.class);
 
     private final RateLimiter rateLimiter;
 
