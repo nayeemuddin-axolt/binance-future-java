@@ -31,7 +31,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y rsync
 
       - name: Deploy with rsync
-        run: rsync -v -v -e '/usr/bin/ssh -p 22' ./ ${{ secrets.USERNAME }}@${{ secrets.HOST }}:Binance-future-Project
+        run: rsync -avz ./ ${{ secrets.USERNAME }}@${{ secrets.HOST }}:~/.ssh/Binance-future-Project
       
       # - name: Build with Gradle
       #   run: ./gradlew build
