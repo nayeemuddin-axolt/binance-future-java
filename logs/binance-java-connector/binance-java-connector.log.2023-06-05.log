@@ -1,0 +1,1 @@
+2023-06-05 12:54:18.368 | c.b.c.f.client.utils.RequestHandler  - GET https://testnet.binancefuture.com/dapi/v1/continuousKlines?pair=BTCUSD&contractType=PERPETUAL&interval=5m&startTime=1669852800000&endTime=1685949858350

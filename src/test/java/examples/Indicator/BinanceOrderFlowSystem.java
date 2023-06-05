@@ -120,9 +120,9 @@ public class BinanceOrderFlowSystem {
         // If imbalance is negative (more selling pressure) and spread is small, we sell.
         // If spread is large, we do nothing (hold).
         // These rules are completely arbitrary and are just for demonstration purposes.
-        if (imbalance > 0 && spread < 0.02) {
+        if (imbalance > 0 && spread < 0.01) {
             return "BUY";
-        } else if (imbalance < 0 && spread < 0.02) {
+        } else if (imbalance < 0 && spread < 0.01) {
             return "SELL";
         }else {
             return "HOLD";

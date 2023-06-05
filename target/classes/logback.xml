@@ -7,8 +7,6 @@
     <property name="BASE_DIR" value="./logs" />
     <property name="OLD_DIR" value="${SYSTEM}" />
     <property name="FILE_NAME" value="${SYSTEM}.log" />
-    <property name="FILE_N" value="${SYSTEM}" />
-
 
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -17,16 +15,14 @@
     </appender>
 
     <appender name="dailyFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <encoder>
-        <file>${BASE_DIR}/${FILE_N}.%d{yyyy-MM-dd}.log</file>
-        </encoder>
+        <!-- <fileNamePattern>${BASE_DIR}/${FILE_NAME}</fileNamePattern> -->
         <append>true</append>
         <encoder>
             <pattern>${LOG_PATTERN}</pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${BASE_DIR}/${OLD_DIR}/${FILE_NAME}.%d{yyyy-MM-dd}.gz</fileNamePattern>
-            <maxHistory>30</maxHistory>
+            <fileNamePattern>${BASE_DIR}/${OLD_DIR}/${FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- <maxHistory>30</maxHistory> -->
         </rollingPolicy>
     </appender>
 

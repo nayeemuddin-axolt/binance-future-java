@@ -287,8 +287,8 @@ public class TradingStrategies {
                                 .max(Comparator.naturalOrder()).orElseThrow().doubleValue();
 
                 // Define the thresholds
-                double buyThreshold = 465;
-                double sellThreshold = 475;
+                double buyThreshold = -205.5;
+                double sellThreshold = -205.5;
 
                 logger.info("\nAsset Balance of " + targetAsset + " is " + portfolioSize +
                                 "\nLowestPrice to buy at " + lowestPrice +
